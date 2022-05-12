@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+div{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:flex-start;
+    
+}
+h1{
+    background-color: red;
+  
+}
+h2{
+    background-color: green;
+    flex: 1;
+
+}
+h3{
+    background-color: blue;
+    
+}
