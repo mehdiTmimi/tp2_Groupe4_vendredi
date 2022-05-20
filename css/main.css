@@ -4,7 +4,7 @@
     text-decoration: none;
 }
 body{
-    height: 100vh;
+    height:100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -12,58 +12,58 @@ body{
 header{
     display: flex;
     justify-content: space-between;
-  align-items: center;
-  background: lightblue;
-  color:white;
+    align-items: center;
+    background: black;
+    color:white;
 }
-
 header h1{
+    margin: 20px 40px;
     font-size: 5em;
     text-transform: uppercase;
-    margin: 10px 20px;
 }
 header ul{
     display: flex;
 }
-header ul li{
+header li{
     display: block;
     font-size: 2em;
-    text-transform: capitalize;
     padding: 10px 30px;
+    text-transform: capitalize;
     transition-duration: 1s;
 }
-
-header ul li:hover{
-   color:lightblue;
-   background: white;
-   margin-right: 40px;
+header li:hover{
+    color: black;
+    background: white;
+    margin-right: 20px;
 }
-header li a {
-    color:inherit;
+header nav a{
+    color: inherit;
 }
-
 main{
-    flex: 1;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background: url(../img/bg.jpeg);
+    flex:1;
+    background-size: cover;
 }
 main h1{
-    font-size: 6em;
+    font-size: 7em;
     text-transform: uppercase;
 }
 main p{
-    width: 50%;
-    font-size: 1.4em;
-    background-color: rgba(240, 248, 255, 0.42);
+    width: 70%;
+    font-size: 2em;
+    background: rgb(162 154 154 / 50%);
+    padding: 20px;
     text-align: justify;
-    padding: 15px 30px;
 }
 footer{
-    text-align: center;
-    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
     color: white;
     font-size: 2em;
     padding: 20px;

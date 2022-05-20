@@ -1,25 +1,22 @@
-*{
-    margin: 0px;
-    padding: 0px;
+.voiture{
+    font-size: 25em !important;
+    color:red;
 }
-div{
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items:flex-start;
-    
+.search{
+    position: relative;
+    left: -20px;
+    color: gray;
+    background-color: lightgray;
 }
-h1{
-    background-color: red;
-  
-}
-h2{
-    background-color: green;
-    flex: 1;
 
-}
-h3{
-    background-color: blue;
-    
+.search2::after{
+    content: '\f002';
+    font: normal normal normal 14px/1 FontAwesome;
+    color: gray ;
+    position: relative;
+    left: -20px;
+    /*
+    https://fontawesome.com/v4/cheatsheet/
+    http://mehditmimi.epizy.com/examGIGroupe2/exam2gi/
+    */
 }
